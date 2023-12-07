@@ -1,0 +1,7 @@
+En la carpeta utils solo se debe agregar archivos javascript con funcionalidad de que se puedan utilizar en todo el proyecto.
+
+En esta carpeta no se deben agregar controladores ni APIs que pertenezcan al modelo de la aplicación.
+
+Si la utilidad requiere ademas exponer un API, entonces se debe agregar a utilities en la carpeta Shared.
+
+En caso de agregar en shared leer las consideraciones propias de esa carpeta.

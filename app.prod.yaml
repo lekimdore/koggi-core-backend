@@ -1,0 +1,13 @@
+env: standard
+runtime: nodejs18
+service: backend-skeleton
+network:
+  name: projects/interno-davinci-netsecmoni/global/networks/vpc-onegroup-prod
+  subnetwork_name: net-onegroup-a-prod
+
+vpc_access_connector:
+  name: projects/interno-davinci-netsecmoni/locations/us-central1/connectors/connector-vpc-onegroup-pr
+
+env_variables:
+  NODE_ENV: prod
+  CLOUD: true

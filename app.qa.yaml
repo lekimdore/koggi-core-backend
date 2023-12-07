@@ -1,0 +1,13 @@
+env: standard
+runtime: nodejs18
+service: backend-skeleton
+network:
+  name: projects/interno-davinci-netsecmoni/global/networks/vpc-app-pla-qa
+  subnetwork_name: net-onegroup-a-qa
+
+vpc_access_connector:
+  name: projects/davinci-onegroup-sqa/locations/us-central1/connectors/conect-onegroup-qa
+
+env_variables:
+  NODE_ENV: qa
+  CLOUD: true

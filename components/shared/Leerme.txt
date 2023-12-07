@@ -1,0 +1,8 @@
+En la carpeta shared solo se deben crear componentes(ruoter+controller+otros) que pueden ser utilizados 
+mediante un API o por otros componentes(pertenecientes al modelo).
+
+Por ejemplo Emails es un componente como tal pero no hace parte del modelo sino que es una funcionalidad
+que se puede gestionar internamente o por medio de un proveedor externo y no pertenece al core de esta aplicación.
+
+El componente no debe pertenecer al modelo de la aplicación.
+en caso  de pertenecer al modelo, se debe crear afuera de la carpeta shared como componente propiamente.

@@ -1,0 +1,6 @@
+env: standard
+runtime: nodejs18
+service: backend-skeleton
+
+env_variables:
+  NODE_ENV: dev
